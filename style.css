@@ -22,9 +22,10 @@
 
 @media (max-width:768px) {
 
-  .intro { text-align: center;
+  .intro { 
+    text-align: center;
   }
-  
+
 }
 
 .todo_container {
@@ -44,16 +45,16 @@
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .button {
@@ -157,14 +158,14 @@ input,button{
 
 /* Edit Task */
 .todo__item .todo_input {
-  display:none
+  display: none
 }
 
 .todo__edit-mode .todo_input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo__edit-mode .todo__task-head {
-  display:none;
+  display: none;
 }
