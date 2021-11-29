@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.todo__task-head, .todo_input {
+.todo__task-head, 
+.todo_input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -46,14 +47,16 @@
 
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -115,7 +118,6 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,7 +138,7 @@ input,button{
   width: 226px;
 }
 
-.todo__item >  .todo_input {
+.todo__item > .todo_input {
   width: 226px;
 }
 
@@ -161,11 +163,11 @@ input,button{
   display: none;
 }
 
-.todo__edit-mode .todo_input {
+.todo__item_edit-mode .todo_input {
   display: inline-block;
   width: 224px;
 }
 
-.todo__edit-mode .todo__task-head {
+.todo__item_edit-mode .todo__task-head {
   display: none;
 }
