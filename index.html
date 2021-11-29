@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
 </head>
+
 <body class="page">
   <div class="intro">
     <img class="intro__img" src="./eisenhower-matrix.jpg" /><a class="intro__link"
@@ -15,28 +17,33 @@
       <label class="todo__add-head" for="new-task">Add Item</label>
     </p>
     <div class="todo__add-wrapper">
-      <input class="todo__add-input todo_input" id="new-task"  type="text" /><button class="button">Add</button>
+      <input class="todo__add-input todo_input" id="new-task" type="text" /><button class="button">Add</button>
     </div>
     <h3 class="todo__head">Todo</h3>
     <ul class="todo__incompleted-tasks" id="incompleted-tasks">
       <li class="todo__item">
-        <input type="checkbox" class="todo__completed-check"/><label class="todo__task-head">Pay Bills</label><input type="text" class="todo_input" /><button
-          class="todo__edit-btn button">Edit</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
+        <input type="checkbox" class="todo__completed-check" /><label class="todo__task-head">Pay Bills</label><input
+          type="text" class="todo_input" /><button class="todo__edit-btn button">Edit</button><button
+          class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
       </li>
       <li class="todo__edit-mode todo__item">
-        <input type="checkbox" class="todo__completed-check"/><label class="todo__task-head">Go Shopping</label><input type="text" value="Go Shopping"
-          class="todo_input" /><button class="todo__edit-btn button">
-          Save</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
+        <input type="checkbox" class="todo__completed-check" /><label class="todo__task-head">Go Shopping</label><input
+          type="text" value="Go Shopping" class="todo_input" /><button class="todo__edit-btn button">
+          Save</button><button class="todo__remove-btn button"><img class="todo__remove-img"
+            src="./remove.svg" /></button>
       </li>
     </ul>
     <h3 class="todo__head">Completed</h3>
     <ul class="todo__completed-tasks" id="completed-tasks">
       <li class="todo__item">
-        <input type="checkbox" checked class="todo__completed-check"/><label class="todo__task-head">See the Doctor</label><input type="text"
-          class="todo_input" /><button class="todo__edit-btn button">Edit</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
+        <input type="checkbox" checked class="todo__completed-check" /><label class="todo__task-head">See the
+          Doctor</label><input type="text" class="todo_input" /><button
+          class="todo__edit-btn button">Edit</button><button class="todo__remove-btn button"><img
+            class="todo__remove-img" src="./remove.svg" /></button>
       </li>
     </ul>
   </div>
   <script src="app.js"></script>
 </body>
+
 </html>
