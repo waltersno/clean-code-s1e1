@@ -5,35 +5,35 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
 </head>
-<body>
+<body class="page">
   <div class="intro">
-    <img src="./eisenhower-matrix.jpg" /><a class="intro__link"
+    <img class="intro__img" src="./eisenhower-matrix.jpg" /><a class="intro__link"
       href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="todo todo_container">
-    <p id="todo-add-text">
-      <label for="new-task">Add Item</label>
+    <p>
+      <label class="todo__add-head" for="new-task">Add Item</label>
     </p>
     <div class="todo__add-wrapper">
-      <input class="todo__add-input todo_task" id="new-task"  type="text" /><button>Add</button>
+      <input class="todo__add-input todo_input" id="new-task"  type="text" /><button class="button">Add</button>
     </div>
-    <h3>Todo</h3>
+    <h3 class="todo__head">Todo</h3>
     <ul class="todo__incompleted-tasks" id="incompleted-tasks">
-      <li class="todo__save-mode">
-        <input type="checkbox" /><label class="todo_task">Pay Bills</label><input type="text" class="todo_task" /><button
-          class="todo__edit-btn">Edit</button><button class="todo__remove-btn"><img src="./remove.svg" /></button>
+      <li class="todo__item">
+        <input type="checkbox" class="todo__completed-check"/><label class="todo__task-head">Pay Bills</label><input type="text" class="todo_input" /><button
+          class="todo__edit-btn button">Edit</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
       </li>
-      <li class="todo__edit-mode">
-        <input type="checkbox" /><label class="todo_task">Go Shopping</label><input type="text" value="Go Shopping"
-          class="todo_task" /><button class="todo__edit-btn">
-          Save</button><button class="todo__remove-btn"><img src="./remove.svg" /></button>
+      <li class="todo__edit-mode todo__item">
+        <input type="checkbox" class="todo__completed-check"/><label class="todo__task-head">Go Shopping</label><input type="text" value="Go Shopping"
+          class="todo_input" /><button class="todo__edit-btn button">
+          Save</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
       </li>
     </ul>
-    <h3>Completed</h3>
+    <h3 class="todo__head">Completed</h3>
     <ul class="todo__completed-tasks" id="completed-tasks">
-      <li>
-        <input type="checkbox" checked /><label class="todo_task">See the Doctor</label><input type="text"
-          class="todo_task" /><button class="todo__edit-btn">Edit</button><button class="todo__remove-btn"><img src="./remove.svg" /></button>
+      <li class="todo__item">
+        <input type="checkbox" checked class="todo__completed-check"/><label class="todo__task-head">See the Doctor</label><input type="text"
+          class="todo_input" /><button class="todo__edit-btn button">Edit</button><button class="todo__remove-btn button"><img class="todo__remove-img" src="./remove.svg" /></button>
       </li>
     </ul>
   </div>
