@@ -37,7 +37,7 @@
 .todo__task-head, .todo_input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .todo__add-wrapper {
@@ -137,7 +137,7 @@ input,button{
 }
 
 .todo__item >  .todo_input {
-  width: 226px
+  width: 226px;
 }
 
 .button.todo__remove-btn .todo__remove-img {
@@ -152,18 +152,18 @@ input,button{
 
 /* Completed */
 #completed-tasks .todo_task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo__item .todo_input {
-  display: none
+  display: none;
 }
 
 .todo__edit-mode .todo_input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo__edit-mode .todo__task-head {
