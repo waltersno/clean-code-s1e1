@@ -20,12 +20,12 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
-  .header { 
+  .header {
     text-align: center;
   }
-
+  
 }
 
 .todo_container {
@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.todo__task-head, 
+.todo__task-head,
 .todo_input {
   width: 56%;
   display: inline-block;
@@ -92,8 +92,8 @@ button {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
